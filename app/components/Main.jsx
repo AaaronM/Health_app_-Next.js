@@ -22,7 +22,7 @@ export default function Hero() {
             <div className="flex align-middle items-center ">
               {/* ICON BRN */}
               <div className="flex text-white ">
-                <button className="border rounded-xl p-2 mr-5 flex align-middle items-center gap-3 bg-slate-950">
+                <button className="border rounded-xl p-2 mr-5 flex align-middle items-center  bg-slate-950 gap-2 w-auto ">
                   <AiFillApple className=" w-7 h-7" />
                   <p className="">App Store</p>
                 </button>

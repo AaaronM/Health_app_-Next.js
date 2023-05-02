@@ -35,10 +35,10 @@ export default function Service() {
           className="h-[400px] w-[350px] bg-black text-white p-8 rounded-2xl"
         >
           <div>
-            <Image
+            {/* <Image
               className=" absolute top-[320px] left-[220px] h-[120px] w-[120px]"
               src={Pills}
-            ></Image>
+            ></Image> */}
             <h3 className=" text-3xl font-bold mb-5">Track symptoms</h3>
             <p className="text-lg text-gray-400 mb-5 ">
               We provide daily monitoring of activity indicators and remaining
@@ -80,15 +80,15 @@ export default function Service() {
               Get advice, treatment options and a prescription
             </p>
           </div>
-          <Image
+          {/* <Image
             className=" absolute top-[320px] right-[220px] h-[120px] w-[120px]"
             src={Ambulance}
-          ></Image>
+          ></Image> */}
 
-          <Image
+          {/* <Image
             className=" absolute top-[112px] right-[320px] rotate-[33deg] h-[120px] w-[120px]"
             src={Bloodbag}
-          ></Image>
+          ></Image> */}
         </motion.div>
       </div>
     </div>
