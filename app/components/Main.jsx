@@ -47,7 +47,7 @@ export default function Hero() {
         {/* TOP */}
         <div className="flex justify-center">
           <div className="flex gap-10 mt-[150px] align-bottom items-end ">
-            <div className="bg-[#e7e7e6] h-[250px] w-[270px] rounded-3xl z-10">
+            <div className="bg-[#F6F6F2] h-[250px] w-[270px] rounded-3xl z-10">
               <div className="p-6">
                 <p className=" text-center text-lg font-semibold mt-7">
                   There is a little fatigue but in general I fell good

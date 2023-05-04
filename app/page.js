@@ -6,7 +6,7 @@ import Service from "./components/Service";
 import Stories from "./components/Stories";
 import Main from "./components/Main";
 import AppBody from "./components/AppBody";
-import Intrototheapp from "./components/intrototheapp";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,10 +15,10 @@ export default function Home() {
       <Main />
       <Service />
       <AppSection />
-      <Intrototheapp />
       <AppBody />
       <Stories />
       <ContactSection />
+      <Footer />
     </div>
   );
 }
